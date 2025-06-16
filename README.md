@@ -17,21 +17,21 @@ This project is about predicting the Fire Weather Index (FWI) using weather data
 
 - Encoded categorical features
 
-Exploratory Data Analysis (EDA)
+**2. Exploratory Data Analysis (EDA)**
 
-Heatmaps, pairplots, and correlation matrix to study relationships
+- Heatmaps, pairplots, and correlation matrix to study relationships
 
-Distribution of FWI across fire/no-fire conditions
+- Distribution of FWI across fire/no-fire conditions
 
-Feature Selection
+**3. Feature Selection**
 
-Based on correlation and domain understanding
+- Based on correlation and domain understanding
 
-Modeling
+**4. Modeling**
 
-Applied:
+- Applied:
 
-Linear Regression
+    - Linear Regression
 
 Ridge Regression
 
