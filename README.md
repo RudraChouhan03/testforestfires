@@ -1,10 +1,12 @@
 # 🔥 Algerian Forest Fire Prediction - Ridge and Lasso Regression
 This project is about predicting the Fire Weather Index (FWI) using weather data from the Algerian Forest Fires dataset. The goal is to use machine learning models like Linear Regression, Ridge Regression, and Lasso Regression to understand how different weather conditions affect forest fires.
 
-## Dataset
-The dataset contains weather features like temperature, humidity, wind speed, rain, and fire indexes such as FFMC, DMC, DC, ISI, BUI, and FWI.
+## 📂 Dataset
+- Source: Algerian Forest Fires Dataset
 
-*Target column:* FWI (Fire Weather Index)
+- Features include: Temperature, Relative Humidity, Wind Speed, Rain, FFMC, DMC, DC, ISI, BUI, FWI, etc.
+
+- Target: FWI (Fire Weather Index)
 
 ## Project Steps
 
