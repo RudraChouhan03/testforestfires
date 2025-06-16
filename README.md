@@ -31,25 +31,27 @@ This project is about predicting the Fire Weather Index (FWI) using weather data
 
 - Applied:
 
-    - Linear Regression
+    - **Linear Regression**
 
-Ridge Regression
+    - **Ridge Regression**
 
-Lasso Regression
+    - **Lasso Regression**
+      
+    - **Elastic Net Regression**
 
-Model Evaluation
+**5. Model Evaluation**
 
-Metrics used:
+- Metrics used:
 
-Mean Absolute Error (MAE)
+    - Mean Absolute Error (MAE)
 
-Mean Squared Error (MSE)
+    - Mean Squared Error (MSE)
 
-Root Mean Squared Error (RMSE)
+    - Root Mean Squared Error (RMSE)
 
-R² Score
+    - R² Score
 
-## Results
+## 📈 Results Summary
 
 After applying the models, Ridge Regression gave slightly better performance compared to Lasso and Elastic Net Regression.
 
@@ -60,23 +62,25 @@ After applying the models, Ridge Regression gave slightly better performance com
 | Elastic Net Regression |   0.981  |
 
 
-## Tools Used
+## 🛠️ Tools & Libraries
 
 - Python
-- pandas and numpy for data handling
-- seaborn and matplotlib for visualization
-- scikit-learn for building and evaluating the models
+- Pandas and NumPy for data handling
+- Seaborn and Matplotlib for visualization
+- Scikit-learn for building and evaluating the models
 
-## How to Run
+## 🚀 How to Run
 
 1. Download the dataset and notebook
 2. Open the notebook in Jupyter or any Python IDE
 3. Run the cells step by step
 
-## Acknowledgement
+## 🙏 Acknowledgement
 
-Thanks to Krish Naik sir for creating this helpful and practical course on data science and machine learning.
+Thanks to (https://www.youtube.com/@KrishNaik) sir  for providing the amazing content and project guidance as part of the Data Science & ML course.
 
 ## Contact
 
-If you have any suggestions or questions, feel free to reach out or connect with me on LinkedIn (http://www.linkedin.com/in/rudrachouhan).
+If you have any suggestions or questions, feel free to reach out or connect with me on 
+📧 rudrachouhan0305@email.com
+🔗 (http://www.linkedin.com/in/rudrachouhan)
