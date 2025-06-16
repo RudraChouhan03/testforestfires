@@ -77,7 +77,7 @@ After applying the models, Ridge Regression gave slightly better performance com
 
 ## 🙏 Acknowledgement
 
-Thanks to [Krish Naik](https://www.youtube.com/@KrishNaik) sir  for providing the amazing content and project guidance as part of the Data Science & ML course.
+Thanks to [Krish Naik](https://www.linkedin.com/in/naikkrish) sir  for providing the amazing content and project guidance as part of the Data Science & ML course.
 
 ## Contact
 
