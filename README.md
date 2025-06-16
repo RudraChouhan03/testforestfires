@@ -21,11 +21,12 @@ Target column: FWI (Fire Weather Index)
 
 After applying the models, Ridge Regression gave slightly better performance compared to Lasso and Elastic Net Regression.
 
-    Model	            R² Score
+| Model                  | R² Score |
+| ---------------------- | -------- |
+| Ridge Regression       |   0.984  |
+| Lasso Regression       |   0.982  |
+| Elastic Net Regression |   0.981  |
 
-Ridge Regression -> 0.9842993364555512
-Lasso Regression -> 0.9820946715928275
-ElasticNet Regression -> 0.9814217587854941
 
 ## Tools Used
 
