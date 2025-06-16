@@ -1,49 +1,88 @@
-# Algerian Forest Fire Prediction - Ridge and Lasso Regression
-
+# 🔥 Algerian Forest Fire Prediction - Ridge and Lasso Regression
 This project is about predicting the Fire Weather Index (FWI) using weather data from the Algerian Forest Fires dataset. The goal is to use machine learning models like Linear Regression, Ridge Regression, and Lasso Regression to understand how different weather conditions affect forest fires.
 
-## Dataset
 
-The dataset contains weather features like temperature, humidity, wind speed, rain, and fire indexes such as FFMC, DMC, DC, ISI, BUI, and FWI.
+## 📂 Dataset
+- **Source:** Algerian Forest Fires Dataset
 
-Target column: FWI (Fire Weather Index)
+- **Features include:** Temperature, Relative Humidity, Wind Speed, Rain, FFMC, DMC, DC, ISI, BUI, FWI, etc.
 
-## Project Steps
+- **Target:** FWI (Fire Weather Index)
 
-1. Load and clean the dataset
-2. Explore the data using graphs and summary statistics
-3. Prepare the features and target variable
-4. Split the data into training and testing sets
-5. Apply Linear, Ridge, and Lasso regression models
-6. Evaluate the models using error metrics like MAE, MSE, RMSE, and R2 score
 
-## Results
+## 🔍 Project Workflow
+**1. Data Cleaning**
+
+- Removed irrelevant columns like "day", "month", "year"
+
+- Encoded categorical features
+
+**2. Exploratory Data Analysis (EDA)**
+
+- Heatmaps, pairplots, and correlation matrix to study relationships
+
+- Distribution of FWI across fire/no-fire conditions
+
+**3. Feature Selection**
+
+- Based on correlation and domain understanding
+
+**4. Modeling**
+
+- Applied:
+
+    - **Linear Regression**
+
+    - **Ridge Regression**
+
+    - **Lasso Regression**
+      
+    - **Elastic Net Regression**
+
+**5. Model Evaluation**
+
+- Metrics used:
+
+    - Mean Absolute Error (MAE)
+
+    - Mean Squared Error (MSE)
+
+    - Root Mean Squared Error (RMSE)
+
+    - R² Score
+
+## 📈 Results Summary
 
 After applying the models, Ridge Regression gave slightly better performance compared to Lasso and Elastic Net Regression.
 
-    Model	            R² Score
+| Model                  | R² Score |
+| ---------------------- | -------- |
+| Ridge Regression       |   0.984  |
+| Lasso Regression       |   0.982  |
+| Elastic Net Regression |   0.981  |
 
-Ridge Regression -> 0.9842993364555512
-Lasso Regression -> 0.9820946715928275
-ElasticNet Regression -> 0.9814217587854941
 
-## Tools Used
+## 🛠️ Tools & Libraries
 
 - Python
-- pandas and numpy for data handling
-- seaborn and matplotlib for visualization
-- scikit-learn for building and evaluating the models
+- Pandas and NumPy for data handling
+- Seaborn and Matplotlib for visualization
+- Scikit-learn for building and evaluating the models
 
-## How to Run
+## 🚀 How to Run
 
 1. Download the dataset and notebook
 2. Open the notebook in Jupyter or any Python IDE
 3. Run the cells step by step
 
-## Acknowledgement
+## 🙏 Acknowledgement
 
-Thanks to Krish Naik sir for creating this helpful and practical course on data science and machine learning.
+Thanks to [Krish Naik](https://www.linkedin.com/in/naikkrish) sir  for providing the amazing content and project guidance as part of the Data Science & ML course.
 
 ## Contact
 
-If you have any suggestions or questions, feel free to reach out or connect with me on LinkedIn (http://www.linkedin.com/in/rudrachouhan).
+If you have any suggestions or questions, feel free to reach out or connect with me on 
+
+📧 rudrachouhan0305@email.com
+
+🔗 [LinkedIn](http://www.linkedin.com/in/rudrachouhan)
