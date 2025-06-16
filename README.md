@@ -82,5 +82,7 @@ Thanks to [Krish Naik](https://www.youtube.com/@KrishNaik) sir  for providing th
 ## Contact
 
 If you have any suggestions or questions, feel free to reach out or connect with me on 
+
 📧 rudrachouhan0305@email.com
-🔗 [RUDRA Chouhan](http://www.linkedin.com/in/rudrachouhan)
+
+🔗 [LinkedIn](http://www.linkedin.com/in/rudrachouhan)
